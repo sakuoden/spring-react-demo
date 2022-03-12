@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping
     String demo() {
-        return "remo";
+        return "demo";
     }
 
     @PostMapping("/{demoNumber}")
